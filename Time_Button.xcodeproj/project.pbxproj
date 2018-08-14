@@ -16,6 +16,7 @@
 		D7C95E4921226D3D00C896D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C95E4821226D3D00C896D7 /* main.m */; };
 		D7C95E5321226D3E00C896D7 /* Time_ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C95E5221226D3E00C896D7 /* Time_ButtonTests.m */; };
 		D7C95E5E21226D3E00C896D7 /* Time_ButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C95E5D21226D3E00C896D7 /* Time_ButtonUITests.m */; };
+		D7C95E7221226E5600C896D7 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C95E7121226E5600C896D7 /* UIButton+CountDown.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D7C95E5921226D3E00C896D7 /* Time_ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Time_ButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C95E5D21226D3E00C896D7 /* Time_ButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Time_ButtonUITests.m; sourceTree = "<group>"; };
 		D7C95E5F21226D3E00C896D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C95E7021226E5600C896D7 /* UIButton+CountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		D7C95E7121226E5600C896D7 /* UIButton+CountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		D7C95E3521226D3C00C896D7 /* Time_Button */ = {
 			isa = PBXGroup;
 			children = (
+				D7C95E6B21226D5000C896D7 /* Catepory */,
 				D7C95E3621226D3C00C896D7 /* AppDelegate.h */,
 				D7C95E3721226D3C00C896D7 /* AppDelegate.m */,
 				D7C95E3921226D3C00C896D7 /* ViewController.h */,
@@ -133,6 +137,15 @@
 				D7C95E5F21226D3E00C896D7 /* Info.plist */,
 			);
 			path = Time_ButtonUITests;
+			sourceTree = "<group>";
+		};
+		D7C95E6B21226D5000C896D7 /* Catepory */ = {
+			isa = PBXGroup;
+			children = (
+				D7C95E7021226E5600C896D7 /* UIButton+CountDown.h */,
+				D7C95E7121226E5600C896D7 /* UIButton+CountDown.m */,
+			);
+			path = Catepory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +280,7 @@
 			files = (
 				D7C95E4121226D3C00C896D7 /* Time_Button.xcdatamodeld in Sources */,
 				D7C95E3B21226D3C00C896D7 /* ViewController.m in Sources */,
+				D7C95E7221226E5600C896D7 /* UIButton+CountDown.m in Sources */,
 				D7C95E4921226D3D00C896D7 /* main.m in Sources */,
 				D7C95E3821226D3C00C896D7 /* AppDelegate.m in Sources */,
 			);
